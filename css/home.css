@@ -1,0 +1,450 @@
+html{font-size:16px;font-family: helvetica,"microsoft yahei";}
+@media only screen and (min-width: 320px) {html {font-size:17.2px!important;}}
+@media only screen and (min-width: 360px) {html {font-size:19.2px!important;}}
+@media only screen and (min-width: 375px) {html {font-size:20px!important;}}
+@media only screen and (min-width: 400px) {html {font-size:21.33px!important;}}
+@media only screen and (min-width: 414px) {html {font-size:22.08px!important;}}
+@media only screen and (min-width: 480px) {html {font-size:25.6px!important;}}
+@media only screen and (min-width: 640px) {html {font-size:34.4px!important;}}
+
+body,ul,li,h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: inherit;
+	font-weight: normal;
+}
+body{
+	font-family: "microsoft yahei";
+}
+body,html{
+	width: 100%;
+}
+ul li{
+	list-style: none;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+*{
+	box-sizing: border-box;
+}
+.f-l{
+	float: left;
+}
+.f-r{
+	float: right;
+}
+.clearfix{
+	clear: both;
+}
+/*顶部*/
+.l-header2{
+	height: 3rem;
+}
+.l-header{
+	overflow: hidden;
+	position: fixed;
+	z-index: 20;
+	top: 0;
+	background-image: url(../img-home/hd.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 3rem;
+	padding-top: .3rem;
+}
+.l-header >.l-logo>img{
+	height: 80%;
+	margin-left: 1rem;
+	margin-top: .1rem;
+}
+.l-header >.l-logo{
+	display: block;
+	height: 100%;
+}
+.l-header-words>p{
+	margin-top: .2rem;
+	color: #fff;
+	font-size: .7rem;
+}
+.l-header-words>h3{
+	    color: #7e859e;
+	font-size: .7rem;
+}
+.l-header-words{
+	margin-left: .5rem;
+}
+.l-download{
+	margin-top: .3rem;
+	margin-right: .7rem;
+	display: block;
+	width: 6rem;
+	height: 1.99rem;
+	background-image: url(../img-home/down.png);
+	background-size: cover;
+}
+/*轮播图区块*/
+.carousel-indicators{
+	position: absolute;
+	bottom: 0;
+	margin-right: 0;
+	left: 20rem;	
+	width: 14%;
+}
+.carousel p{
+	font-size: 1rem;
+	height: 1.7rem;
+	line-height: 1.7rem;
+	text-align: left;
+	padding-left: .5rem;
+	width: 100%;
+	background-color: rgba(0,0,0,.6);
+}
+.carousel-caption{
+	bottom: 0;
+	padding: 0;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+/*导航区块*/
+.l-navbar{
+	background-image: url(../img-home/btn_list.png);
+	background-color: rgb(241,243,245);
+	background-position: 0  -.2rem;
+	background-size: cover;
+	width: 100%;
+	height: 6rem;
+}
+.l-navbar>ul{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.l-navbar>ul>li{
+	padding: 0;
+	margin: 0;
+	height: 50%;
+	width: 25%;
+	float: left;
+	border-top: 1px #dddddd solid;
+	border-left: 1px #dddddd solid;
+}
+.l-navbar>ul>li>a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.l-navbar>ul>li>a>p{
+	text-align: center;
+	color:#222;
+	font-size: .7rem;
+	margin-top:1.7rem;
+}
+/*热点资讯*/
+.l-hotnews>p{
+	height: 1.7rem;
+	font-size: 1rem;
+	line-height: 1.7rem;
+	color: #212222;
+	margin-top: .5rem;
+}
+.l-hotnews{
+	border-bottom:1px solid #d4d9de;
+	padding-bottom: .5rem;
+}
+.l-hotnews>p>a{
+	margin-top: .5rem;
+	margin-right: .5rem;
+	color: #fff;
+	display: block;
+	float: right;
+	background-color: rgb(75,103,175);
+	font-size: .4rem;
+	text-align: center;
+	width: 2rem;
+	height: .7rem;
+	line-height: .7rem;
+	border-radius: .35rem;
+	
+}
+.l-hotnews>p>span{
+	margin-top: .5rem;
+	margin-left: .5rem;
+	margin-right: .5rem;
+	display: inline-block;
+	width: .8rem;
+	height: .8rem;
+	background-image: url(../img-home/index.png);
+	background-size: 12rem 12rem;
+}
+.l-hotnews>h2>a>span:first-child{
+	color:#777777 ;
+	margin-right: .5rem;
+}
+.l-hotnews>h2>a>span:nth-child(2){
+	color: #464f73;
+	margin-left: .5rem;
+}
+.l-hotnews>h2>a>span:nth-child(3){
+	margin: 0 .2rem;
+}
+.l-hotnews>h2{
+	margin: .5rem auto;
+	font-size: .7rem;
+}
+.l-hotnews>h2>a:hover{
+	text-decoration: none;
+	color: inherit;
+}
+/*精彩视频*/
+.l-videos>p{
+	height: 1.7rem;
+	font-size: 1rem;
+	line-height: 1.7rem;
+	color: #212222;
+	margin-top: .5rem;
+}
+.l-videos{
+	border-bottom:1px solid #d4d9de;
+	padding-bottom: .5rem;
+}
+.l-videos>p>a{
+	margin-top: .5rem;
+	margin-right: .5rem;
+	color: #fff;
+	display: block;
+	float: right;
+	background-color: rgb(75,103,175);
+	font-size: .4rem;
+	text-align: center;
+	width: 2rem;
+	height: .7rem;
+	line-height: .7rem;
+	border-radius: .35rem;
+	
+}
+.l-videos>p>span{
+	margin-top: .5rem;
+	margin-left: .5rem;
+	margin-right: .5rem;
+	display: inline-block;
+	width: .8rem;
+	height: .8rem;
+	background-image: url(../img-home/index.png);
+	background-position: 0 -1.6rem;
+	background-size: 12rem 12rem;
+}
+.l-videos-list>li{
+	margin: .5rem;
+	width: 44%;
+}
+.l-videos-list>li>a{
+	display: block;
+	width: 100%;
+	border-radius: .3rem;
+	overflow: hidden;
+	position: relative;
+}
+.l-videos-list>li>a>span{
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -.75rem;
+	left: 50%;
+	margin-left: -.75rem;
+	cursor: pointer;
+	width: 1.5rem;
+	height: 1.5rem;
+	background-image: url(../img-home/index.png);
+	background-size: 10rem 10rem;
+	background-position: -1.3rem 0;
+}
+.l-videos-list>li>a>img{
+	width: 100%;
+}
+.l-videos-list>li>p{
+	font-size: .75rem;
+	width: 100%;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	margin-top: .5rem;
+}
+
+.l-videos-list>li>h2>span[class="f-l"]{
+	display: block;
+	height: .6rem;
+	width: .6rem;
+	background-image: url(../img-home/index.png);
+	background-size: 10rem 10rem;
+	background-position: -1.8rem -2.2rem;
+	margin-left: .2rem;
+}
+.l-videos-list>li>h2{
+	font-size: .5rem;
+}
+/*精品攻略*/
+.l-gonglue>p{
+	height: 1.7rem;
+	font-size: 1rem;
+	line-height: 1.7rem;
+	color: #212222;
+	margin-top: .5rem;
+}
+.l-gonglue{
+	border-bottom:1px solid #d4d9de;
+	padding-bottom: .5rem;
+}
+.l-gonglue>p>a{
+	margin-top: .5rem;
+	margin-right: .5rem;
+	color: #fff;
+	display: block;
+	float: right;
+	background-color: rgb(75,103,175);
+	font-size: .4rem;
+	text-align: center;
+	width: 2rem;
+	height: .7rem;
+	line-height: .7rem;
+	border-radius: .35rem;
+	
+}
+.l-gonglue>p>span{
+	margin-top: .5rem;
+	margin-left: .5rem;
+	margin-right: .5rem;
+	display: inline-block;
+	width: .8rem;
+	height: .8rem;
+	background-image: url(../img-home/index.png);
+	background-position: 0 -3.3rem;
+	background-size: 12rem 12rem;
+}
+.l-gonglue-list>li{
+	position: relative;
+}
+.l-gonglue-list>li span{
+	display: block;
+	color:#a4abae;
+	font-size: .55rem;
+}
+.l-span01{
+	position: absolute;
+	top: .6rem;
+	right: .5rem;
+}
+.l-span01>span{
+	width: .7rem;
+	height: .6rem;
+	background-image: url(../img-home/index.png);
+	background-size: 8rem 8rem;
+	background-position: -1.4rem -1.2rem;
+	margin-top: .12rem;
+	margin-left: .2rem;
+	
+}
+.l-span02{
+	position: absolute;
+	bottom: 0.8rem;
+	right: 0.66rem;
+}
+.l-gonglue-list>li>img{
+	width: 3rem;
+	height: 3rem;
+	border-radius: .5rem;
+	margin: .5rem;
+}
+.l-gonglue-list>li>div{
+	width: 60%;
+}
+.l-gonglue-list>li>div>p{
+	margin-top: .5rem;
+	font-size: .7rem;
+	width: 95%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.l-gonglue-list>li>div>h2{
+	font-size: .5rem;
+	line-height: 1.2;
+	height: 1.3rem;
+	text-overflow: ellipsis;
+	color: #a4abae;
+}
+
+.l-close{
+	width: 90%;
+	margin-left: 5%;
+	position: fixed;
+	top: 4rem;
+	z-index: 9999;
+	display: block;
+}
+.l-close>div{
+	width: 100%;
+	position:relative;
+}
+.l-close>div>img{
+	width: 100%;
+}
+.l-close>div>a{
+	display: block;
+	width: 1.8rem;
+	height: 1.8rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-image: url(../img-home/close.png);
+	background-size: cover;
+}
+.l-close>div>a>img{
+	width: 100%;
+}
+
+
+.l-footer{
+    background: url(../img-home/navnew11.png) no-repeat 50% 0;
+    left: 0;
+    top: auto;
+    height: 2.16rem;
+    width: 100%;
+    bottom: 0;
+    background-size: 100% auto;
+    font-size: 0;
+    z-index: 10;
+    position: fixed;
+}
+.l-footer ul{
+	    height: 100%;
+}
+.l-footer li{
+	width: 25%;
+    height: 2.16rem;
+    float: left;
+   
+}
+.l-footer li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.l-footer li:nth-child(1){
+	background: url(../img-home/navnew2.png);
+    background-size: 400% auto;
+    background-position: left;
+}
+/*底部视频按钮
+.l-footer li:nth-child(2){
+	background: url(../img-home/navnew2.png);
+    background-size: 400% auto;
+    background-position: 33% 0;
+}*/

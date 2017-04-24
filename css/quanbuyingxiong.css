@@ -1,0 +1,188 @@
+html{font-size:16px;font-family: helvetica,"microsoft yahei";}
+	@media only screen and (min-width:320px){html {font-size: 17.2px!important;}}
+	@media only screen and (min-width:360px){html {font-size: 19.2px!important;}}
+	@media only screen and (min-width:375px){html {font-size: 20px!important;}}
+	@media only screen and (min-width:400px){html {font-size:21.33px!important;}}
+	@media only screen and (min-width:414px){html {font-size:22.08px!important;}}
+	@media only screen and (min-width:480px){html {font-size:25.6px!important;}}
+	@media only screen and (min-width:640px){html {font-size: 34.4px!important;}}
+body,ul,li,h1,h2,h3,h4,h5,h6,p,html{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: inherit;
+	font-weight: normal;
+}
+body {
+	font-family: "microsoft yahei";
+	position: relative;
+}
+ul li{
+	list-style: none;			
+}
+a {
+	text-decoration: none;
+}
+img {
+	display: inline-block;
+}
+.relative {
+	position: relative;
+}
+.clearfix {
+	clear: both;
+}
+.f-l {
+	float: left;
+}
+.f-r {
+	float: right;
+}
+.l-header2{
+	height: 3rem;
+}
+.l-header{
+	position: fixed;
+	top: 0;
+	background-image:url(../img/ipone-img/kejitu3.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 3rem;
+	padding-top: .3rem;
+}
+.l-header >.l-logo>img{
+	height: 80%;
+	margin-left: 1rem;
+	margin-top: .1rem;
+}
+.l-header >.l-logo{
+	display: block;
+	height: 100%;
+}
+.l-header-words>p{
+	margin-top: .2rem;
+	color: #fff;
+	font-size: .7rem;
+}
+.l-header-words>h3{
+	    color: #7e859e;
+	font-size: .7rem;
+}
+.l-header-words{
+	margin-left: .5rem;
+}
+.l-download{
+	margin-top: .3rem;
+	margin-right: .7rem;
+	display: block;
+	width: 6rem;
+	height: 1.99rem;
+	background-image: url(../img/ipone-img/down.png);
+	background-size: cover;
+}
+
+.f-section-one{
+	margin-top: 1.5rem;
+}
+.f-section-one li{
+	float: left;
+	width: 14.06%;
+	height: 1.3rem;
+	overflow: hidden;
+}
+.f-section-one li a{
+	width: 100%;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    display: block;
+    text-align: center;
+    font-size: 0.7rem;
+    color: #a7a7a7;
+    border-bottom: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+}
+.f-section-one .f-active{
+	background: url(../img/ipone-img/hero_navBg.png)no-repeat;
+}
+.f-section-one .f-active a{
+	color: #fff;
+}
+.f-section-two li{
+	float: left;
+   width: 3rem;
+    height: 5rem;
+   /* margin-bottom: 1.41667rem;*/
+   margin-right: 1.4rem;
+    overflow: hidden;
+}
+.f-section-two li:nth-child(1),
+.f-section-two li:nth-child(5),
+.f-section-two li:nth-child(9),
+.f-section-two li:nth-child(13),
+.f-section-two li:nth-child(17),
+.f-section-two li:nth-child(21),
+.f-section-two li:nth-child(25),
+.f-section-two li:nth-child(29),
+.f-section-two li:nth-child(33),
+.f-section-two li:nth-child(37),
+.f-section-two li:nth-child(41),
+.f-section-two li:nth-child(45),
+.f-section-two li:nth-child(49),
+.f-section-two li:nth-child(53),
+.f-section-two li:nth-child(57),
+.f-section-two li:nth-child(61),
+.f-section-two li:nth-child(65){
+	margin-left: 1rem;
+}
+
+.kongkong{
+	height: 2.16rem;
+}
+
+.f-section-two li img{
+	width: 100%;
+    height: 3rem;
+    border: 1px solid #d2d2d2;
+}
+.f-section-two li a{
+	display: inline-block;
+	color: #000;
+	width: 100%;
+    height: .3rem;
+	text-align: center;
+    font-size: 0.6667rem;
+    margin-top: 0.35833rem;
+}
+.l-footer{
+    background: url(../img/ipone-img/snavnew11.png) no-repeat 50% 0;
+    left: 0;
+    top: auto;
+    height: 2.16rem;
+    width: 100%;
+    bottom: 0;
+    background-size: 100% auto;
+    font-size: 0;
+    z-index: 10;
+    position: fixed;
+}
+.l-footer ul{
+	    height: 100%;
+}
+.l-footer li{
+	width: 25%;
+    height: 2.16rem;
+    float: left;
+   
+}
+.l-footer li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.l-footer li:nth-child(1){
+	background: url(../img/ipone-img/navnew2.png);
+    background-size: 400% auto;
+    background-position: 0 50%;
+}
+
