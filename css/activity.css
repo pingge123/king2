@@ -1,0 +1,230 @@
+html{font-size:16px;font-family: helvetica,"microsoft yahei";}
+	@media only screen and (min-width:320px){html {font-size: 17.2px!important;}}
+	@media only screen and (min-width:360px){html {font-size: 19.2px!important;}}
+	@media only screen and (min-width:375px){html {font-size: 20px!important;}}
+	@media only screen and (min-width:400px){html {font-size:21.33px!important;}}
+	@media only screen and (min-width:414px){html {font-size:22.08px!important;}}
+	@media only screen and (min-width:480px){html {font-size:25.6px!important;}}
+	@media only screen and (min-width:640px){html {font-size: 34.4px!important;}}
+body,ul,li,h1,h2,h3,h4,h5,h6,p,html{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: inherit;
+	font-weight: normal;
+}
+body {
+	font-family: "microsoft yahei";
+}
+ul li{
+	list-style: none;			
+}
+a {
+	text-decoration: none;
+}
+img {
+	display: inline-block;
+}
+.relative {
+	position: relative;
+}
+.clearfix {
+	clear: both;
+}
+.f-l {
+	float: left;
+}
+.f-r {
+	float: right;
+}
+.l-header{
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	background-image: url(../img/ipone-img/kejitu3.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 3rem;
+	padding-top: .3rem;
+}
+.l-header >.l-logo>img{
+	height: 80%;
+	margin-left: 1rem;
+	margin-top: .1rem;
+}
+.l-header >.l-logo{
+	display: block;
+	height: 100%;
+}
+.l-header-words>p{
+	margin-top: .2rem;
+	color: #fff;
+	font-size: .7rem;
+}
+.l-header-words>h3{
+	    color: #7e859e;
+	font-size: .7rem;
+}
+.l-header-words{
+	margin-left: .5rem;
+}
+.l-download{
+	margin-top: .3rem;
+	margin-right: .7rem;
+	display: block;
+	width: 6rem;
+	height: 1.99rem;
+	background-image: url(../img/ipone-img/down.png);
+	background-size: cover;
+}
+.f-z-nav{
+	margin-top: 3.3rem;
+    width: 100%;
+    height: 1.4rem;
+}
+.f-z-nav li{
+	float: left;
+	width: 33%;
+	height: 100%;
+	border-right:1px solid #d8d8d8;
+	border-bottom: 1px solid #d7d7d7;
+	 background-color: #f1f1f1;	
+}
+.f-z-nav li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #595757;;
+	font-size: .7rem;
+	text-align: center;
+}
+.f-z-nav li:nth-child(1){
+	background-image: url(../img/ipone-img/hero_navBg.png);
+}
+.f-z-nav li:nth-child(1) a{
+	color: #fff;
+}
+.f-z-nr{
+	width: 100%;
+	height: auto;
+	background-color: #F1F1F1;
+}
+.f-z-nr-a{
+	width: 100%;
+	height: 5.25rem;
+	border-bottom: 1px solid #ccc;
+	padding-top: .7rem;
+}
+.f-nr-al{
+	float: left;
+	display: inline-block;
+	width: 46%;
+	height: 4.6rem;
+	border: 1px solid #D4D4D4;
+	margin-left: .5rem;
+	overflow: hidden;
+}
+.f-nr-al a span{
+	color:#3C3C3C ;
+	font-size: .7rem;
+	margin-left: -1.3rem;
+}
+.f-a-s{
+	display: inline-block;
+    width: 4rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+	background-color: #555555;
+	color: #FFFFFF!important;
+	font-size: .5rem!important;
+	text-align: center;
+	font-size: .6rem;
+	transform: rotateZ(-45deg);
+	margin-left: -.9rem;
+}
+.f-nr-ar{
+	float: right;
+	display: inline-block;
+	width: 48%;
+	height: 4.6rem;
+	position: relative;
+}
+.f-nr-ar a{
+	color: #1B6D85;
+	font-size: .6rem;
+}
+.f-nr-ar .f-weiyi{
+	font-size: .5rem;
+	position: absolute;
+	bottom: 0;
+	right: 0.5rem;
+	color: #8c8b8b;
+}
+.f-nr-al img{
+	width: 100%;
+    height: 100%;
+}
+.f-nr-ar p{
+	color:#333333;
+	font-size: .5rem;
+	/*word-break: break-all;*/
+	text-wrap: nowrap;
+}
+.f-shang{
+	margin-top: .4rem;
+	width: 100%;
+	height: 1.6rem;
+	color: #3C3C3C;
+	line-height: 1.6rem;
+	font-size: .6rem;
+	text-align: center;
+	background-color: #d7d7d7;
+}
+
+.f-k{
+	width: 100%;
+	height: 3rem;
+}
+.f-nr-al-a{
+	float: left;
+	display: inline-block;
+	width: 46%;
+	height: 4.6rem;
+	border: 1px solid #D4D4D4;
+	margin-left: .5rem;
+	overflow: hidden;
+	background: url(../img/ipone-img/761031139740063_BigAbbr.jpg)no-repeat;
+	background-size:cover ;
+}
+/*尾部*/
+.l-footer{
+    background: url(../img/ipone-img/snavnew11.png) no-repeat 50% 0;
+    left: 0;
+    top: auto;
+    height: 2.16rem;
+    width: 100%;
+    bottom: 0;
+    background-size: 100% auto;
+    font-size: 0;
+    z-index: 10;
+    position: fixed;
+}
+.l-footer ul{
+	    height: 100%;
+}
+.l-footer li{
+	width: 25%;
+    height: 2.16rem;
+    float: left;
+   
+}
+.l-footer li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.l-footer li:nth-child(1){
+	background: url(../img/ipone-img/navnew2.png);
+    background-size: 400% auto;
+}
