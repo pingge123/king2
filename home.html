@@ -9,7 +9,9 @@
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="icon" type="image/jpg" href="img-home/hehe.jpg"/>
 		<link rel="stylesheet" type="text/css" href="css/home.css"/>
+		<style type="text/css">
 		
+		</style>
 		
 	</head>
 	<body>
@@ -262,15 +264,15 @@
 			</ul>
 		</div>
 		
-		<!--<div class="l-close" id="guandiao">
+		<div class="l-close" id="guandiao">
 			<div class="">
 				<img src="img-home/v18.jpg"/>
-				<a  onclick="guanbi()">
-					<img src="img-home/close.png"/>
+				<a href="#" >
+					<img onclick="guanbi2()" src="img-home/close.png"/>
 				</a>
 			</div>
 			
-		</div>-->
+		</div>
 		
 		
 		
@@ -291,15 +293,16 @@
 			</ul>
 		</div>
 		
-		<script type="text/javascript">
-			var guanbi= document.getElementById("guandiao");
-			function guanbi(){
-				guanbi.style.display="none";
-			}
-		</script>
+		
 		
 		
 		<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>	
+		<script>
+			var guanbi = document.getElementById("guandiao");
+			function guanbi2() {
+				guanbi.style.display = "none";
+			}
+		</script>
 	</body>
 </html>
